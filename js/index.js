@@ -6,4 +6,11 @@ const swiper = new Swiper('.main-slider', {
   navigation: {
     nextEl: '.main-slider__arrow',
   },
+
+  breakpoints: {
+    375: {
+        slidesPerView: 2,
+        spaceBetween: 30,
+    }
+}
 });
